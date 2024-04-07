@@ -169,10 +169,10 @@ class Numeric
 end
 
 
-print 5.yen, " yen", "\n"
-print 1.dollar.in(:euros), " euros", "\n"
-print 10.euros.in(:rupees), " rupees", "\n"
-print 10.rupees.in(:euro), " euros", "\n"
+print 5.yen, "\n"
+print 1.dollar.in(:euros), "\n"
+print 10.euros.in(:rupees), "\n"
+print 10.rupees.in(:euro), "\n"
 
 class String
 	def palindrome?
